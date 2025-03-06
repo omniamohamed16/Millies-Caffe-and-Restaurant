@@ -179,4 +179,10 @@ text-align: center;
     margin: 20px;
     object-fit: cover;
     object-position: 100%;
+    transition: ease-in-out 3s;
 }
+
+.hidden{
+    display: none;
+}
+

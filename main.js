@@ -13,3 +13,12 @@ themeBtn.addEventListener("click", function () {
   }
   console.log(ModeLS);
 });
+
+// setting gear
+settingGear = document.querySelector(".setting");
+settingList = document.querySelector(".setting-list");
+
+settingGear.addEventListener("click", () => {
+  document.querySelector(".fa-gear").classList.toggle("fa-spin");
+  settingList.classList.toggle("hidden")
+});

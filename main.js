@@ -48,3 +48,7 @@ settingGear.addEventListener("click", (event) => {
     settingList.classList.toggle("hidden");
   }
 });
+
+
+
+

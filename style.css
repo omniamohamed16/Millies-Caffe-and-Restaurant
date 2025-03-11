@@ -16,7 +16,7 @@ body {
 }
 
 /* setting box*/
-.setting{
+.setting {
     position: absolute;
     width: 100%;
     text-align: right;
@@ -25,9 +25,9 @@ body {
     cursor: pointer;
 }
 
-.setting-list{
-    height:500px;
-    width:200px;
+.setting-list {
+    height: 500px;
+    width: 200px;
     position: absolute;
     right: 15px;
     background-color: white;
@@ -38,7 +38,7 @@ body {
     align-items: center;
 }
 
-.setting-list::before{
+.setting-list::before {
     content: '';
     width: -7px;
     height: -10px;
@@ -50,7 +50,7 @@ body {
     border-color: transparent transparent #fff transparent;
 }
 
-.theme-div{
+.theme-div {
     display: block;
     border-radius: 5px;
     background-color: #8b480f;
@@ -60,27 +60,28 @@ body {
     padding-top: 10px;
 }
 
-.theme-div > p{
+.theme-div>p {
     font-weight: bold;
 }
 
 
 
-.theme-div span.dark , span.light {
-color: #8b480f;
-background-color: #fff;
-padding: 1px 8px;
-margin-left: 10px;
-margin-top: 30px;
-border-radius: 4px;
-cursor: pointer;
+.theme-div span.dark,
+span.light {
+    color: #8b480f;
+    background-color: #fff;
+    padding: 1px 8px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
-.theme-div span.active{
-background-color: #532905;
-color: #fff;
-padding: 3px 10px
+.theme-div span.active {
+    background-color: #532905;
+    color: #fff;
+    padding: 3px 10px
 }
 
 
@@ -150,29 +151,29 @@ padding: 3px 10px
     transform: translate(-50%, -50%);
 }
 
-@media(min-width: 200px){
-    .title{
-    font-size: 35px;
-}
-}
-
-@media(min-width: 500px){
-    .title{
-    font-size: 50px;
-}
+@media(min-width: 200px) {
+    .title {
+        font-size: 35px;
+    }
 }
 
+@media(min-width: 500px) {
+    .title {
+        font-size: 50px;
+    }
+}
 
-@media(min-width: 700px){
-    .title{
-    font-size: 60px;
-}
+
+@media(min-width: 700px) {
+    .title {
+        font-size: 60px;
+    }
 }
 
-@media(min-width: 900px){
-    .title{
-    font-size: 70px;
-}
+@media(min-width: 900px) {
+    .title {
+        font-size: 70px;
+    }
 }
 
 
@@ -247,7 +248,7 @@ a {
 }
 
 /* start our gallery */
-.our-gallery{
+.our-gallery {
     padding-top: 50px;
     background-color: #532905;
 }
@@ -262,16 +263,16 @@ a {
     color: #fff;
 }
 
-.our-gallery .images{
-width: 100%;
-height: auto;
-text-align: center;
+.our-gallery .images {
+    width: 100%;
+    height: auto;
+    text-align: center;
 
 }
 
 
 
-.our-gallery img{
+.our-gallery img {
     border-radius: 6px;
     flex: 0 0 200px;
     height: 400px;
@@ -282,28 +283,50 @@ text-align: center;
 
 
 
-.hidden{
+.hidden {
     display: none;
 }
 
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    .our-gallery img{
+@media (min-width: 576px) {
+    .our-gallery img {
         width: calc(100%/3);
     }
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-        .our-gallery img{
-    width: calc(100%/3);
-}
+@media (min-width: 768px) {
+    .our-gallery img {
+        width: calc(100%/3);
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    .our-gallery img{
+@media (min-width: 992px) {
+    .our-gallery img {
         width: calc(100%/4);
     }
+}
+
+/* start contact area */
+
+.contacts {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    background-color: #532905;
+    color: #fff;
+    padding: 20px;
+}
+
+.contacts h2 {
+    font-family: omnia;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+
+
 }
